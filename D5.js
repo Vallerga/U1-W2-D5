@@ -151,10 +151,10 @@ for (i = 0; i < cars.length; i++) {
 console.log("\n\nexercise 9°\n");
 
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
-let j = 0;
-while (numericArray[j] !== 32) {
-    console.log(numericArray[j]);
-    j++;
+let p = 0;
+while (numericArray[p] !== 32) {
+    console.log(numericArray[p]);
+    p++;
 }
 
 /* ESERCIZIO 10
@@ -162,23 +162,31 @@ while (numericArray[j] !== 32) {
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
-// const charactersArray = ["g", "n", "u", "z", "d"];
-// const alfabeticPosition = [];
-// for (i = 0; charactersArray.length; i++) {
-//     switch (true) {
-//         case charactersArray[i] === "g":
-//             alfabeticPosition[i] = parseInt("g");
-//             break;
-//         case charactersArray[i] === "n":
-//             alfabeticPosition[i] = parseInt("n");
-//         case charactersArray[i] === "u":
-//             alfabeticPosition[i] = parseInt("n");
-//         case charactersArray[i] === "z":
-//             alfabeticPosition[i] = parseInt("n");
-//         case charactersArray[i] === "d":
-//             alfabeticPosition[i] = parseInt("n");
-//         default:
-//             console.log("not matched")
-//     }
-// }
-// console.log(alfabeticArray);
+
+console.log("\n\nexercise 10°\n");
+const charactersArray = ["g", "n", "u", "z", "d"];
+const alfabeticPosition = [];
+let j = 0
+do {
+    switch (true) {
+        case charactersArray[j] == "g":
+            alfabeticPosition[j] = 7;
+            break;
+        case charactersArray[j] == "n":
+            alfabeticPosition[j] = 14;
+            break;
+        case charactersArray[j] == "u":
+            alfabeticPosition[j] = 21;
+            break;
+        case charactersArray[j] == "z":
+            alfabeticPosition[j] = 26;
+            break;
+        case charactersArray[j] == "d":
+            alfabeticPosition[j] = 4;
+            break;
+        default:
+            console.log("not matched");
+    }
+    j++;
+} while (j < charactersArray.length)
+console.log(alfabeticPosition);
