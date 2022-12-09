@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    background-color: rgb(34,47,63);
+}
+
+header>div {
+    width: 10%;
+    position: relative;
+    height: 10vh;
+    margin: 0 3%;
+}
+
+nav {
+    background-color: #364759;
+    width: 4vh;
+    width: 100%;
+    text-align: left;
+}
+
+nav div.navInlineBlock {
+    display: inline-block;
+    color: #DAE4F0;
+    padding: 0.5%;
+}
+
+header>div div.amazon {
+    font-size: 1.8em;
+    padding: 0% 5% 5%;
+}
+
+header>div img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    background-color: #E9EDEE;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3vh;
+}
+
+main div.subtitle {
+    background-color: #F56600;
+    width: 100%;
+    color: #FFEBD9;
+    padding: 10 px;
+}
+section.first {
+    padding: 3vh 0 0;
+    position: relative;
+}
+
+section.first img {
+    width: 100%;
+    z-index: 0;
+}
+
+section.first span {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FFEBD9;
+}
+
+section.first p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #FFEBD9;
+}
+
+section.second {
+    position: relative;
+}
+
+section.second div.photoInlineBlock {
+    display: inline-block;
+    width: 24.5%;
+    padding: 3% 1% 1.5%;
+    box-sizing: border-box;
+}
+
+section.second div.photoInlineBlock img {
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px lightgray;
+}
+
+section.second div.small {
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+
+section.second p>span {
+    color: #267A83 ;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+section.second div.white {
+    background-color: white;
+}
+
+section.third img {
+    width: 100%;
+    padding: 2% 0;
+}
+
+section.fourth img {
+    width: 100%;
+    padding: 0% 0 2%;
+}
+
+footer {
+    background-color: rgb(34,47,63);
+    height: 15vh;
+    position: relative;
+}
+
+footer div.logo2 {
+    width: 10%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer div.banner {
+    background-color: #364759;
+    width: 4vh;
+    width: 100%;
+    color: #DAE4F0;
+    text-decoration: none;
+}
